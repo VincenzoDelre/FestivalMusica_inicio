@@ -52,5 +52,5 @@ function mostrarImagen(e) {
   //Mostrarlo en el html
   const body = document.querySelector('body');
   body.appendChild(overlay);
-  body.classList.add('fijar-body');
+  
 }
