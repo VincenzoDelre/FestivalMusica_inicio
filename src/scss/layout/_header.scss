@@ -22,6 +22,12 @@
       margin-bottom: 0;
     }
   }
+
+  &.fijo {
+    position:fixed;
+    width: 100%;
+    box-shadow: 0 .3rem .4rem #444; //1 sombreado ix to dx, sombreado top to bott, blue radio cuanto se expande la sombra, spred similar al anterior, color
+  }
 }
 
 .navegacion-principal {
